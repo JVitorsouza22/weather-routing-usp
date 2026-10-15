@@ -1,0 +1,5 @@
+out/
+__pycache__/
+*.pyc
+verificacao/gurobi_resultado.json
+dados_brutos/
