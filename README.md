@@ -83,4 +83,4 @@ Para ver como o modelo reage a um parâmetro, copie a pasta inteira, mude `D_MIN
 
 ## Licença
 
-A definir pelo autor antes da publicação (sem licença, o código é público para leitura, mas não pode ser reutilizado por terceiros).
+Licença MIT (veja o arquivo LICENSE).
