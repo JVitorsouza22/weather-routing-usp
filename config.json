@@ -1,0 +1,39 @@
+{
+ "D_MIN_NM": 3.0,
+ "D_PLAN_NM": 4.0,
+ "PORT_TOL_NM": 3.0,
+ "PORT_MARGIN_NM": 15.0,
+ "MAX_RATIO": 1.35,
+ "RES_GRAU": 0.01,
+ "PESOS_RISCO": {
+  "onda": 0.41,
+  "vento": 0.41,
+  "corrente": 0.18
+ },
+ "REFERENCIAS_RISCO": {
+  "onda_m": 4.0,
+  "vento_kmh": 62.0,
+  "corrente_kmh": 7.5
+ },
+ "K_IDW": 4,
+ "CENARIOS_PESO": {
+  "tempo": [
+   0.8,
+   0.2
+  ],
+  "equilibrado": [
+   0.5,
+   0.5
+  ],
+  "risco": [
+   0.2,
+   0.8
+  ]
+ },
+ "TRANSITOS_ANO": {
+  "E1": 18,
+  "E2": 18,
+  "E3": 14
+ },
+ "nota": "Parâmetros usados no artigo. Só os seis primeiros (D_MIN_NM, D_PLAN_NM, PORT_TOL_NM, PORT_MARGIN_NM, MAX_RATIO, RES_GRAU) são lidos pelo código (src/build_mesh.py e src/paths.py). Os demais campos apenas documentam valores que estão fixos no código: pesos e referências do índice de risco e K_IDW em src/wr_model.py; cenários de peso e trânsitos por ano em src/analysis.py."
+}

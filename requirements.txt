@@ -1,0 +1,10 @@
+# Versoes usadas no artigo. Codigo escrito e testado com Python 3.12; os resultados tambem foram
+# reproduzidos, identicos, com Python 3.13. Use Python 3.12 ou 3.13 (64 bits). Para o Python 3.15 estas
+# versoes fixas ainda nao tem pacote pronto (wheel) e a instalacao falha.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-image==0.26.0
+matplotlib==3.10.8
+global-land-mask==1.0.0
+gurobipy==13.0.3
